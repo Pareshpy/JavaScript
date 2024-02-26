@@ -1,0 +1,59 @@
+button{
+    color: black;
+    width: 150px;
+    height: 50px;
+    margin: 50px;
+    outline: solid 1px black;
+    border-radius: 5px;
+    font-size: 25px;
+}
+#count{
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+h2{
+    text-align: center;
+    color: black;
+    font-size: 42px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.btn1{
+    background-color: red;
+}
+.btn2{
+    background-color: green;
+}
+.btn1:hover{
+    background-color: darkred;
+}
+.btn2:hover{
+    background-color: darkgreen;
+}
+#save{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font: bold;
+}
+body{
+    background-image : url(BG.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    /* background-size: auto */
+}
+#sum{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: large;
+    font: bold;
+}
